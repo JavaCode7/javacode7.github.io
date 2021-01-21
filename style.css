@@ -1,0 +1,35 @@
+html {
+    background-image: linear-gradient(to left, rgba(0, 0, 0), rgba(0, 0, 0, 0.842)), url("./Javacode7 logo.png");
+    background-color: black;
+}
+
+p {
+    color: darkorchid;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+li {
+    color: darkorchid;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.4cm;
+    text-align: justify;
+}
+
+h1 {
+    color: rgb(0, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.intro {
+    color: rgb(170, 0, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}

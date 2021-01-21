@@ -1,0 +1,29 @@
+html {
+    background-color: black;
+}
+
+h1,
+p {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+canvas {
+    display: block;
+}
+
+.navbar {
+    background: darkorchid;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-align: left;
+    color: rgb(0, 255, 0);
+    height: 1cm;
+}
+
+.logo {
+    height: 0.5cm;
+    width: 0.5cm;
+    align-self: center;
+}
