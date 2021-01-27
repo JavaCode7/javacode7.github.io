@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Libraries
+*.min.js
+*.sound.min.js
+*.gui.js
+quicksettings.js
