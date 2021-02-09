@@ -1,7 +1,7 @@
-function make2DArray(cols, rows) {
-    let arr = new Array(cols);
+function make2DArray(c, r) {
+    let arr = new Array(c);
     for (let i = 0; i < arr.length; i++) {
-        arr[i] = new Array(rows);
+        arr[i] = new Array(r);
     }
     return arr;
 }
@@ -46,8 +46,6 @@ function draw() {
         for (let j = 0; j < rows; j++) {
 
             let state = grid[i][j];
-
-            let sum = 0;
             let neighbors = countNeighbors(grid, i, j);
             // Birth
             if (state == 0 && neighbors == 3) {
@@ -67,7 +65,7 @@ function draw() {
     grid = next;
 }
 
-function countNeighbors(grid, x, y) {
+function countNeighbors(g, x, y) {
     let sum = 0
     for (let i = -1; i < 2; i++) {
         for (let j = -1; j < 2; j++) {
@@ -75,10 +73,10 @@ function countNeighbors(grid, x, y) {
             let col = (x + i + cols) % cols;
             let row = (y + j + rows) % rows;
 
-            sum += grid[col][row]
+            sum += g[col][row]
         }
     }
 
-    sum -= grid[x][y];
+    sum -= g[x][y];
     return sum;
 }
