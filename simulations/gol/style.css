@@ -3,7 +3,8 @@ html {
 }
 
 h1,
-p {
+p,
+li {
     color: green;
     font-family: 'Courier New', Courier, monospace;
     text-align: justify;

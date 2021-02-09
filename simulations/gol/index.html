@@ -18,12 +18,18 @@
 <body>
     <nav class="navbar">
         <a class="navbar-brand">
-            Home > Simulations > The Game of Life
+            Simulations > The Game of Life
         </a>
         <img src="https://javacode7.github.io/Javacode7%20logo.png" class="logo">
     </nav>
     <h1>Conway's game of life.</h1>
     <p>A p5.js implementation of conway's game of life.</p>
+    <p>Conway's game of life is staged on a grid of cells. These cells each have 2 states, alive or dead. They can change state according to these three simple rules:</p>
+    <ol>
+        <li>If a dead cell has exactly three neighbors, it becomes an alive cell (Birth).</li>
+        <li>If a live cell has more than 3 neighbors then it dies (Overpopulation).</li>
+        <li>If a live cell has less than 2 neighbors then it dies (Isolation).</li>
+    </ol>
     <script src="sketch.js"></script>
     <br>
     <br>
