@@ -32,7 +32,4 @@
 *.app
 
 # Libraries
-*.min.js
-*.sound.min.js
-*.gui.js
-quicksettings.js
+node_modules
