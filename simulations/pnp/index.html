@@ -16,8 +16,21 @@
 </head>
 
 <body>
+    <nav class="navbar">
+        <a class="navbar-brand">
+            Simulations > Predator and Prey
+        </a>
+    </nav>
     <h1>Predator and Prey</h1>
-    <h3>A p5.js implementation of Predator and Prey.</h3>
+    <p>A p5.js implementation of Predator and Prey.</p>
+    <p>This strange version of predator and prey functions according to some simple rules:</p>
+    <ul>
+        <li>If a predator cell has any predator neighbors, it dies.</li>
+        <li>If a prey cell has any predators as neighbors, it dies.</li>
+        <li>If there are no prey around a predator, it dies.</li>
+        <li>If a dead cell has 3 prey neighbors, it becomes a prey cell.</li>
+        <li>If a dead cell has any predator neighbors, the chance of it becoming a predator cell is equal to the ((the number of predators) - 1)/(the number of predators)</li>
+    </ul>
     <script src="sketch.js"></script>
     <br>
     <br>
